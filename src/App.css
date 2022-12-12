@@ -1,0 +1,309 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+}
+
+.CabeceraPrincipal {
+  align-items: flex-start;
+  color: rgb(15, 12, 12);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5vw;
+  margin: 20px auto;
+  width: 30vw;
+  height: 9vw;
+
+}
+
+.CabeceraPrincipal input {
+  width: 360px;
+  height: 20px;
+  text-align: center;
+  border: solid 3px;
+  font-size: x-large;
+}
+
+body {
+  background-image: url(/public/deportistas.png);
+  background-size: 1500px;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  padding: 0 50px;
+  background-repeat: no-repeat;
+}
+
+.Subtitulo {
+  align-items: flex-start;
+  color: white;
+  font-size: 1vw;
+  margin: 30px auto;
+  width: 20vw;
+  height: 4vw;
+  text-align: center;
+}
+
+.principal h3 {
+  background-color: rgb(187, 209, 74);
+}
+
+.logo {
+  width: 350px;
+  margin-top: 100px;
+  border: black solid;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+.logo:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+
+.cuestionario {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(232, 234, 197);
+  margin: 10px 10px 10px 10px;
+  border: solid 1px;
+  margin-top: 180px;
+  font-family: 'Press Start 2P', cursive;
+  width: 1600px;
+}
+
+.cuestionario ol button {
+  margin: 10px;
+  width: 600px;
+  background-color: rgb(187, 209, 74);
+  height: 70px;
+  font-size: 1vw;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.cuestionario ol button:hover {
+  margin: 10px;
+  width: 600px;
+  background-color: rgb(187, 209, 74);
+  height: 70px;
+  font-size: 1vw;
+  font-family: 'Press Start 2P', cursive;
+  color: #111;
+  background: #deab2a;
+}
+
+
+button:hover {
+  transform: scale(1.2, 1.2);
+  box-shadow: 5px 5px 30px 15px rgba(63, 11, 11, 0.25) -5px -5px 80px 15px rgba(201, 10, 10, 0.22);
+  cursor: pointer;
+}
+
+.acertadas {
+  background-color: rgb(23, 220, 187);
+  margin-top: 10%;
+  width: 70%;
+  padding: 20px;
+  border: solid 5px;
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+  justify-content: center;
+}
+
+
+.botonInicio {
+  background-color: rgb(23, 220, 187);
+  border: solid 5px;
+  border-radius: 10px;
+  width: 500px;
+  height: 100px;
+  font-size: 2vw;
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 80px;
+}
+
+.botonInicio:hover {
+  color: #111;
+  background: #deab2a;
+  box-shadow: 0 0 50px #14d8ff;
+}
+
+.formulario .usuario {
+  background-color: rgb(233, 165, 17);
+  width: 300px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.formulario .enviar {
+  background-color: rgb(233, 165, 17);
+  width: 100px;
+  height: 45px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+
+}
+
+.formulario .tituloGuardar {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.formulario .digitosPuntuacion {
+  background-color: rgb(233, 165, 17);
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+
+}
+
+
+.start h2 {
+  background-color: rgb(23, 220, 187);
+  border: solid 6px;
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.start h2:hover {
+  color: #111;
+  background: #deab2a;
+  box-shadow: 0 0 50px #14d8ff;
+}
+
+.caja-resultado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.caja-resultado .medalla {
+  background-color: rgb(23, 220, 187);
+  width: 40%;
+  padding: 20px;
+  border: solid 6px;
+  border-radius: 80px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caja-resultado .registro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registro .formulario {
+  background-color: rgb(23, 220, 187);
+  border: solid 3px;
+  padding: 20px;
+  border-radius: 5px;
+  border: solid 5px;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.formulario form input {
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  border: solid 5px;
+  font-size: 0.7vw;
+  color: black;
+}
+
+.registro{
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(23, 220, 187);
+  border-collapse: separate;
+  border-spacing: 25px 5px;
+  justify-content: space-between;
+}
+
+table th td {
+  width: 25%;
+}
+
+.tablaResultados{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h3{
+  background-color: #deab2a;
+  border: solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.fraseTabla{
+  background-color: #deab2a;
+  border: solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Press Start 2P', cursive;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+
+.tiempo {
+  background-color: #deab2a;
+}
+
+h1 {
+  background-color: #deab2a;
+  border-radius: 5px;
+  border: solid;
+}
+
+
+form input{
+  height: 80px;
+}
+
+form .enviar{
+  width: 200px;
+}
+
+form .enviar:hover{
+  background-color: rgb(137, 212, 76);
+}
+
+
+.formulario p{
+  font-family: 'Press Start 2P', cursive;
+}
+
